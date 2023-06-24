@@ -131,7 +131,7 @@ background-color: white;
 color:green;
 }
 .product:hover{
-  transform: scale(1.06);
+  transform: scale(0.9);
 }
 .bottom{
   margin-top: 10px;
