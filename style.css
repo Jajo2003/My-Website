@@ -13,15 +13,16 @@ body{
   background-size: cover;
   background-position: center;
   padding: 20px;
+  
 }
 /*left*/
-.Left{
+#Left{
   width: 250px;
   font-size:20px;
   font-weight: 700;
   transition:0.3s;
 }
-.Left:hover{
+#Left:hover{
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -102,4 +103,53 @@ body{
   background-color:  black;
   color:white;
   font-size: 21px;
+}
+
+
+/*shop*/
+.whole-shop{
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  column-gap: 100px;
+  grid-template-rows: 360px 360px;
+  row-gap: 100px;
+}
+.product-pic{
+  width: 280px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.product{
+  width: 340px;
+  height: 340px;
+ padding: 10px;
+ transition: 0.4s;
+ cursor: pointer;
+border:2px solid;
+background-color: white;
+color:green;
+}
+.product:hover{
+  transform: scale(1.06);
+}
+.bottom{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-desc{
+  text-align: center;
+}
+.content{
+  width: 800px;
+  height: 830px;
+  font-size: 22px;
+}
+.frame{
+  width: 500px;
+  height: 500px;
+}
+.location{
+  font-size: 22px;
 }
