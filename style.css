@@ -88,8 +88,9 @@ body{
 main{
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  gap:300px;
-  grid-template-rows: 400px 400px 400px;
+  column-gap:200px;
+  row-gap: 100px;
+  
 }
 .news-cont1:hover{
   transform: scale(1.06);
