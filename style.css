@@ -65,11 +65,12 @@ body{
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .right button:hover{
   background-color: white;
   color:black;
+  margin-left:30px;
 }
 /*right*/
 
@@ -87,7 +88,7 @@ body{
   border-radius: 10px;
   object-fit: cover;
 }
-main{
+#Main-content{
   display: grid;
   grid-template-columns: 400px 400px 400px;
   column-gap:200px;
