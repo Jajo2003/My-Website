@@ -13,7 +13,7 @@ body{
   background-size: cover;
   background-position: center;
   padding: 20px;
-  
+  position: relative;
 }
 /*left*/
 #Left{
@@ -153,3 +153,116 @@ color:green;
 .location{
   font-size: 22px;
 }
+/*bottom-left*/
+footer{
+  background-color: rgb(43, 34, 34);
+  position: absolute;
+  bottom:-150px;
+  left:-9px;
+  right: -8px;
+  color:white;
+  display: flex;
+  gap:150px;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  align-items: start;
+  
+}
+.col-name{
+  font-size: 25px;
+}
+.info{
+  font-size:17px;
+  margin-left:4px;
+}
+.col-name,.info{
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: 0.25s;
+
+}
+.info:hover,.col-name:hover{
+  transform: scale(1.1);
+  color:#E4405F;
+}
+
+/*bottom-left*/
+/*bottom-right*/
+.insta-icon,.tele-icon,.face-icon,.tweet-icon{
+  color:gray;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  gap:50px;
+  margin-top:50px;
+  align-items: center;
+}
+.icon-cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+}
+.tag{
+  font-size: 15px;
+  color:gray;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+.tweet-icon:hover ~ .tag{
+  color: #00acee;
+  opacity: 1;
+}
+.tweet-icon:hover {
+  color: #00acee;
+  margin-top: -15px;
+}
+.face-icon:hover ~ .tag{
+  color:  #1877F2;
+  opacity: 1;
+}
+.face-icon:hover {
+  color: #1877F2;
+  margin-top: -15px;
+}
+.tele-icon:hover ~ .tag{
+  color:  #0088cc;
+  opacity: 1;
+}
+.tele-icon:hover {
+  color: #0088cc;
+  margin-top: -15px;
+}
+.insta-icon:hover ~ .tag{
+  color:  #E4405F;
+  opacity: 1;
+}
+.insta-icon:hover {
+  color: #E4405F;
+  margin-top: -15px;
+}
+.support{
+  margin-bottom:30px;
+  color: gray;
+  transition: 0.4s;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+}
+.support:hover{
+  margin-left:20px;
+  color:white;
+  font-weight: bold;
+  background-color: #E4405F;
+  cursor: pointer;
+}
+/*bottom-right*/
