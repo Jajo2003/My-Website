@@ -10,9 +10,9 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   background-image: url(Pics/back.jpg);
   background-repeat: no-repeat;
+  width: 100%;
   background-size: cover;
   background-position: center;
-  padding: 20px;
   position: relative;
 }
 /*left*/
@@ -152,6 +152,7 @@ footer{
   color:white;
   display: flex;
   gap:150px;
+  overflow: hidden;
 }
 .col{
   display: flex;
@@ -259,6 +260,10 @@ footer{
 /*About*/
 .infor,.work,.saturday,.sunday,.location{
   font-size: 20px;
+}
+.content{
+  width: 800px;
+  height: 800px;
 }
 
 /*About*/
