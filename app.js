@@ -128,7 +128,7 @@ function changepage(a){
     About.classList.add('active');
     Shop.classList.remove('active');
     main.innerHTML = ` <div class="content">
-    <div class="info">Shop is located at near Rustaveli St</div>
+    <div class="infor">Shop is located at near Rustaveli St</div>
     <div class="work">Working hours:09:00-21:00 on weekdays</div>
     <div class="saturday"> on Saturday 10:00-18:00</div>
     <div class="sunday">on Sunday closed</div>
@@ -137,3 +137,21 @@ function changepage(a){
  </div>`
   }
 }
+let body = document.body.offsetWidth;
+body = body + 33;
+function changeicons() {
+  const tweet = document.querySelector('.tweet-icon');
+  const Face = document.querySelector('.face-icon');
+  const tele = document.querySelector('.tele-icon');
+  const insta= document.querySelector('.insta-icon');
+  if( body <= 1024 ){
+    tweet.classList.remove('fa-2xl');
+    Face.classList.remove('fa-2xl');
+    tele.classList.remove('fa-2xl');
+    insta.classList.remove('fa-2xl');
+  }
+
+}
+
+
+changeicons();

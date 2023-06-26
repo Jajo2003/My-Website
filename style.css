@@ -77,7 +77,7 @@ body{
 
 /*main*/
 .news-cont1{
-  width: 400px;
+  width: 450px;
   transition:0.3s;
   cursor: pointer;
   font-weight: bold;
@@ -141,18 +141,7 @@ color:green;
 .product-desc{
   text-align: center;
 }
-.content{
-  width: 800px;
-  height: 830px;
-  font-size: 22px;
-}
-.frame{
-  width: 500px;
-  height: 500px;
-}
-.location{
-  font-size: 22px;
-}
+
 /*bottom-left*/
 footer{
   background-color: rgb(43, 34, 34);
@@ -266,3 +255,10 @@ footer{
   cursor: pointer;
 }
 /*bottom-right*/
+
+/*About*/
+.infor,.work,.saturday,.sunday,.location{
+  font-size: 20px;
+}
+
+/*About*/
